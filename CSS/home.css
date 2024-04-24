@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F1F0E8;
+}
+
+.navigation-bar {
+    width: auto;
+    height: 90px;
+    padding: 0;
+    background-color: #96B6C5;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.title {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #F1F0E8;
+    margin-left: 2%;
+    font-size: 40px;
+}
+
+.options-pane {
+    position: relative;
+    margin-left: auto;
+}
+
+.home-button,
+.account-button {
+    margin: auto;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 35px;
+    color: #F1F0E8;
+    font-weight: 900;   
+    border: unset;
+    background: none;
+    padding: auto;
+    margin-right: 50px;
+}
+
+.home-button:hover,
+.account-button:hover {
+    transform: scale(1.2);
+    color: #508aa5;
+}
+
+.main-frame {
+    width: auto;
+    display: flex;
+    padding: 20px;
+}
+
+.information-pane {
+    width: 25%;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #e5e5df;
+    margin-left: 20px;
+    height: calc(100vh - 140px);
+}
+
+.information-content {
+    padding: 0px 20px 0px 20px;
+}
+
+.main-action-bar {
+    width: 75%;
+    display: flex;
+    height: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #e5e5df;
+    margin-left: auto;
+}
+
+.create-post {
+    padding: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+    background: #96B6C5;
+    border: unset;
+    border-radius: 5px;
+    margin: auto;
+    margin-left: 1%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #F1F0E8;
+}
+
+.create-post:hover {
+    transform: scale(1.05);
+    background: #7a9dae;
+    color: #F1F0E8;
+}
+
+.search-bar {
+    width: 30%;
+    padding: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+    border: 1px solid #96B6C5;
+    border-radius: 5px;
+    margin: auto;
+    margin-right: 2%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+}
+
+.search-bar::placeholder {
+    font-size: 15px;
+    font-weight: normal;
+}

@@ -1,0 +1,10 @@
+#063970 - darkblue
+#
+
+background: linear-gradient(115deg, #8da6f6 0%, #6483fc 50%, #0e0eda 100%);
+background: linear-gradient(235deg, #8da6f6 0%, #6483fc 50%, #0e0eda 100%);
+
+F1F0E8
+EEE0C9
+ADC4CE
+96B6C5
